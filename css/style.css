@@ -1,3 +1,7 @@
+body{
+  background-color: lightgrey;
+}
+
 .container{
   text-align: center;
 }
@@ -19,6 +23,10 @@ div.row div:first-of-type{
   text-align: center;
 }
 
+.lezioni{
+  background-color: rgb(242, 164, 99);
+}
+
 .lezioni img{
   width: 50%;
   height: 200px;
@@ -26,11 +34,19 @@ div.row div:first-of-type{
   margin-left: auto;
 }
 
+.steps{
+  background-color: rgb(104, 218, 114);
+}
+
 .steps img{
   margin-right: auto;
   margin-left: auto;
   margin-top: 25px;
   text-align: center;
+}
+
+.why{
+  background-color: rgb(95, 234, 235);
 }
 
 .why img{
@@ -45,4 +61,15 @@ div.row div:first-of-type{
 
 .why div{
   margin-bottom: 25px;
+}
+
+h1:hover, h3:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+h1, h3{
+  background-color: lightgrey;
+  box-shadow: 5px 5px black;
+  margin: 10px 0;
 }
