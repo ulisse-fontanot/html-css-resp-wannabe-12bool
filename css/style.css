@@ -1,0 +1,48 @@
+.container{
+  text-align: center;
+}
+
+.row{
+  padding-top: 50px;
+  text-align: center;
+}
+
+.row [class*="col-"]{
+  height: 100%;
+  float: left;
+  text-align: center;
+  padding: 0 10px;
+}
+
+div.row div:first-of-type{
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.lezioni img{
+  width: 50%;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.steps img{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.why img{
+  background-color: #428bca;
+  border-radius: 50%;
+  height: 50%;
+  width: 30%;
+  padding: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.why div{
+  margin-bottom: 25px;
+}
